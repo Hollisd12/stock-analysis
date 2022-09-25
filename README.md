@@ -5,6 +5,7 @@ In this project, we used Visual Basic for Applications (VBA) to analyze several 
 
 ## Results
 After writing code in VBA to analyze stock data for the years 2017 and 2018, we found the following results:
+
 ![VBA_Challenge_2017_Results](https://user-images.githubusercontent.com/112137694/192166040-d3075926-94bc-4609-b345-542f3a825209.png)
 
 ![VBA_Challenge_2018_Results](https://user-images.githubusercontent.com/112137694/192166042-78063524-9ef3-4ea4-8f32-1cea93652581.png)
@@ -16,6 +17,7 @@ After performing our initial analysis, we decided to refactor our original code 
 
 #### Portions of Old Code
 ![VBA_Challenge_Old_Code](https://user-images.githubusercontent.com/112137694/192166333-9cfbebc5-c3ac-4084-adaa-6258fca95dcd.png)
+
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/112137694/192166357-7373df6e-8e78-4e38-86f1-150fd88d415e.png) ![VBA_Challenge_2018](https://user-images.githubusercontent.com/112137694/192166359-a01dbaf5-a662-492b-a6be-dad12280aa25.png)
 
 In the initial code, we looped over the data set row by row. We used only one array. This process led to an execution time of 1.199219 seconds for the year 2017 and 1.261719 seconds for the year 2018. This isn't a signficant amount of time, however, if the data set were larged, it would take quite some time to perform this opertation. Therefore, we refactored the code to attempt to increase efficiency. 
